@@ -270,6 +270,7 @@
                             }
                             // Set new model value
                             ngModel.$setViewValue(editor.getHTML());
+                            changed = false;
                         }, 0);
                     });
 
